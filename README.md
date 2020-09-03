@@ -5,6 +5,7 @@ Performing analysis on Kickstarter data to uncover trends inorder to best positi
 [Kickstarter Analysis](https://drive.google.com/file/d/1aTCZ5YLa2bIb324H1nM-IDveQ7_MfrjR/view?usp=sharing)
 # Findings
 *Date of Kickstarter campaign launch is an important factor to consider when planning
-![Launch Date Outcomes](LineChart.png)
+![Launch Date Outcomes](OutcomesLineChart.png)
 
-
+*Theatre Kickster campaigns lead in popularity, and while theatre campaigns have the largest number of successful fundings, they also fail more than others
+![Campaign Category Outcomes](CategoryOutcomes.png)
