@@ -8,4 +8,11 @@ Performing analysis on Kickstarter data to uncover trends inorder to best positi
 ![Launch Date Outcomes](OutcomesLineChart.png)
 
 *Theatre Kickster campaigns lead in popularity, and while theatre campaigns have the largest number of successful fundings, they also fail more than others
-![Campaign Category Outcomes](CategoryOutcomes.png)
+![Campaign Category Outcomes](ParentCategoryOutcomes.png)
+
+*Successful US theatre/play kickstarters have an average funding goal of around $5,000, while those failed have an average funding goal over $10,0000
+
+
+# Recommendations
+1 Launch your kickstarter campaign in May, as the data shows May and June are the two best months to run campaigns
+2 Ensure your goal funding amount is as lean as possible, as successful campaigns average goals 1/2 the size of your projected goal
