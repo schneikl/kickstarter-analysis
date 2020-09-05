@@ -21,3 +21,4 @@ The purpose of the findings contained in this analysis will be directional in de
 ---
 4 Some other analysis we could do is run a regression model to understand what the optimal goal amount should be, as the range of success rate from >$1000 to $25,000 is nearly 60% and including other variables into the regression model like launch month could better inform and link the analysis. Additionally, further analysis around backers count could help us understand backer behavior and any links to time of year or funding goals.
 ---
+
