@@ -8,7 +8,7 @@ The purpose of the findings contained in this analysis will be directional in de
 ---
 *Next, I analyzed the Play Kickstarter campaigns by goal to better understand if there were any trends associated with Kickstarter goals and success rate.
 ---
-![Play Campaign Outcomes vs Goals](Outcomes_vs_Goals.png)
+![Play Campaign Outcomes vs Goals](Outcomes_vs_Goals.PNG)
 ---
 *One challenge in evaluating this data is the limited information regarding campaigns with goals over $25,000. Because of this lack of data compared to campaigns with lower goals, it is more difficult to confidently say there is concrete evidence of failure being specifically due to higher targets. Another challenge is that while May and June have the most successful campaigns, there is also significantly more competition in receiving funding during those months due to the significant uptick in total campaigns that begin during those months, so percent successful is also an important factor to consider.
 ---
