@@ -1,23 +1,23 @@
-# An Analysis of Kickstarter Campaigns (Excel File in Google Drive link as file exceeded 25 MB Compressed)
-Performing analysis on Kickstarter data to uncover trends inorder to best position a Kickstarter Campaign for plays in the United States
+# An Analysis of Kickstarter Campaigns in the Theater & Play Categories Evaluating Outcomes Based on Launch Date and Goals
+The purpose of the findings contained in this analysis will be directional in determining optimal goal setting and campaign lauch dates.
 ---
-# Link to Excel
-[Kickstarter Analysis](https://drive.google.com/file/d/1aTCZ5YLa2bIb324H1nM-IDveQ7_MfrjR/view?usp=sharing)
+# Analysis and Challenges
+*First, I analyzed the Theater Kickstarter campaigns by launch date to determine if there was a specific month associated with more successful campaigns.
 ---
-# Findings
-*Date of Kickstarter campaign launch is an important factor to consider when planning
+![Theater Launch Month Outcomes](Theater_Outcomes_vs_Launch.PNG)
 ---
-![Launch Date Outcomes](OutcomesLineChart.PNG)
+*Next, I analyzed the Play Kickstarter campaigns by goal to better understand if there were any trends associated with Kickstarter goals and success rate.
 ---
-*Theatre Kickster campaigns lead in popularity, and while theatre campaigns have the largest number of successful fundings, they also fail more than others
+![Play Campaign Outcomes vs Goals](Outcomes_vs_Goals.png)
 ---
-![Campaign Category Outcomes](ParentCategoryOutcomes.png)
+*One challenge in evaluating this data is the limited information regarding campaigns with goals over $25,000. Because of this lack of data compared to campaigns with lower goals, it is more difficult to confidently say there is concrete evidence of failure being specifically due to higher targets. Another challenge is that while May and June have the most successful campaigns, there is also significantly more competition in receiving funding during those months due to the significant uptick in total campaigns that begin during those months, so percent successful is also an important factor to consider.
 ---
-*Successful US theatre/play kickstarters have an average funding goal of around $5,000, while those failed have an average funding goal over $10,0000
+# Results
+1 Two conclusions that can be drawn from the Theatre Outcomes Based on Launch Date analysis are that May and June have the highest number of successful campaigns, as well as the highest percentage in successful campaigns. Additionally, those months also will be the most competitive to receive funding due to the popularity of launching a campaign during that time. Ultimately, Feb-April may be options worth considering if you believe competition to be a major factor in whether you'll receive funding, as the percent likelihood of success is ~62%, just 4 percentage points below the much more popular months of May and June.
 ---
-
-
-# Recommendations
-1 Launch your kickstarter campaign in May, as the data shows May and June are the two best months to run campaigns
+2 From analyzing Outcomes Based on Goals, we see that as campaign goals grow, the success rate consistently falls until we reach the $25,000 goal mark, at which point there is likely too little data to feel confident in using it. Even as the data becomes thinner and noisier above $25,000, the general trend remains the same with some outliers.
 ---
-2 Ensure your goal funding amount is as lean as possible, as successful campaigns average goals 1/2 the size of your projected goal
+3 This data is limited to only Kickstarter campaigns, and alternative funding platform data (if such exist) would help provide more clarity to the analysis as it could support or completely stray from the conclusions we can make with Kickstarters. Additionally, data around popular mainstream funded projects could also help us understand if there are any external influences that factor into which campaigns are successful in a given year.
+---
+4 Some other analysis we could do is run a regression model to understand what the optimal goal amount should be, as the range of success rate from >$1000 to $25,000 is nearly 60% and including other variables into the regression model like launch month could better inform and link the analysis. Additionally, further analysis around backers count could help us understand backer behavior and any links to time of year or funding goals.
+---
